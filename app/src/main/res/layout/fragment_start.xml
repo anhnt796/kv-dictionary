@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/item_color_alter"
+    android:orientation="vertical"
+    android:tag="fragment_favourite">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="32dp"
+        android:text="Chuyển sang tab Từ vựng để bắt đầu."
+        android:textSize="20dp"/>
+</LinearLayout>

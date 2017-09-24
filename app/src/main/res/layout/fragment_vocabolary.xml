@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#7bff00"
+    android:paddingLeft="0dp"
+    android:paddingRight="0dp"
+    android:tag="fragment_vocabolary">
+
+    <RelativeLayout
+        android:id="@+id/rlEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/textSearch"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/search_background"
+            android:hint="@string/key_search"
+            android:padding="10dp"
+            android:textColor="@color/search_text_color" />
+
+        <ImageView
+            android:background="@drawable/voice_recorder"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:id="@+id/imageVoice"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginRight="3dp"/>
+
+    </RelativeLayout>
+
+    <com.anhnt.kovidict.myapplication.util.EndlessListView
+        android:id="@+id/listview_origin"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/rlEditText" />
+
+</RelativeLayout>

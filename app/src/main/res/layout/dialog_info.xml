@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="4dp"
+    android:minWidth="300dp"
+    android:background="@color/white">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="16dp"
+        android:text="Từ điển Hàn Việt Version 1.0. Copyright © 2016 TA Team. All rights reserved.
+        \n\nTác giả:\nNguyễn 'TA-' Tuấn Anh\nPhó 'Orangee' Đức Đạt\nNguyễn 'NoSkinNoSkill' Bảo Quốc
+        \n\nThiết kế hình ảnh: TA-, Trần Lan Phương, Madebyoliver
+        \n\nNguồn cơ sở dữ liệu: Huy Biên from EChip database - 2008."
+        android:id="@+id/info" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:text="OK"
+        android:id="@+id/btn_ok" />
+</LinearLayout>
